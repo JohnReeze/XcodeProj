@@ -9,7 +9,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/tadija/AEXML", .upToNextMinor(from: "4.4.0")),
-        .package(url: "https://github.com/kylef/PathKit", .upToNextMinor(from: "0.9.2")),
+        .package(url: "https://github.com/kylef/PathKit", .upToNextMinor(from: "0.9.0")),
     ],
     targets: [
         .target(name: "XcodeProj",
